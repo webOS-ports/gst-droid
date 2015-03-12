@@ -1,3 +1,5 @@
+AUTOMAKE_OPTIONS = subdir-objects
+
 lib_LTLIBRARIES = libgstdroid-@GST_API_VERSION@.la
 libgstdroid_@GST_API_VERSION@_ladir = $(libdir)
 
